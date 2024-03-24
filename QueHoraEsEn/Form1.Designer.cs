@@ -51,7 +51,7 @@
             lblDia4 = new Label();
             lblFecha4 = new Label();
             lblSegundos4 = new Label();
-            lblFechaZona4 = new Label();
+            lblHoraZona4 = new Label();
             label21 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
             timer2 = new System.Windows.Forms.Timer(components);
@@ -106,7 +106,7 @@
             lblSegundos1.BorderStyle = BorderStyle.FixedSingle;
             lblSegundos1.Font = new Font("DS-Digital", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSegundos1.ForeColor = SystemColors.HighlightText;
-            lblSegundos1.Location = new Point(356, 145);
+            lblSegundos1.Location = new Point(371, 145);
             lblSegundos1.Name = "lblSegundos1";
             lblSegundos1.Size = new Size(65, 45);
             lblSegundos1.TabIndex = 2;
@@ -179,7 +179,7 @@
             lblSegundos2.BorderStyle = BorderStyle.FixedSingle;
             lblSegundos2.Font = new Font("DS-Digital", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSegundos2.ForeColor = SystemColors.HighlightText;
-            lblSegundos2.Location = new Point(356, 145);
+            lblSegundos2.Location = new Point(371, 145);
             lblSegundos2.Name = "lblSegundos2";
             lblSegundos2.Size = new Size(65, 45);
             lblSegundos2.TabIndex = 2;
@@ -251,7 +251,7 @@
             lblSegundos3.BorderStyle = BorderStyle.FixedSingle;
             lblSegundos3.Font = new Font("DS-Digital", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSegundos3.ForeColor = SystemColors.HighlightText;
-            lblSegundos3.Location = new Point(356, 145);
+            lblSegundos3.Location = new Point(371, 145);
             lblSegundos3.Name = "lblSegundos3";
             lblSegundos3.Size = new Size(65, 45);
             lblSegundos3.TabIndex = 2;
@@ -286,7 +286,7 @@
             panel5.Controls.Add(lblDia4);
             panel5.Controls.Add(lblFecha4);
             panel5.Controls.Add(lblSegundos4);
-            panel5.Controls.Add(lblFechaZona4);
+            panel5.Controls.Add(lblHoraZona4);
             panel5.Controls.Add(label21);
             panel5.Location = new Point(658, 437);
             panel5.Name = "panel5";
@@ -323,23 +323,23 @@
             lblSegundos4.BorderStyle = BorderStyle.FixedSingle;
             lblSegundos4.Font = new Font("DS-Digital", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSegundos4.ForeColor = SystemColors.HighlightText;
-            lblSegundos4.Location = new Point(356, 145);
+            lblSegundos4.Location = new Point(371, 145);
             lblSegundos4.Name = "lblSegundos4";
             lblSegundos4.Size = new Size(65, 45);
             lblSegundos4.TabIndex = 2;
             lblSegundos4.Text = "59";
             // 
-            // lblFechaZona4
+            // lblHoraZona4
             // 
-            lblFechaZona4.AutoSize = true;
-            lblFechaZona4.BorderStyle = BorderStyle.FixedSingle;
-            lblFechaZona4.Font = new Font("DS-Digital", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblFechaZona4.ForeColor = SystemColors.HighlightText;
-            lblFechaZona4.Location = new Point(145, 120);
-            lblFechaZona4.Name = "lblFechaZona4";
-            lblFechaZona4.Size = new Size(229, 97);
-            lblFechaZona4.TabIndex = 1;
-            lblFechaZona4.Text = "13:00";
+            lblHoraZona4.AutoSize = true;
+            lblHoraZona4.BorderStyle = BorderStyle.FixedSingle;
+            lblHoraZona4.Font = new Font("DS-Digital", 48F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHoraZona4.ForeColor = SystemColors.HighlightText;
+            lblHoraZona4.Location = new Point(145, 120);
+            lblHoraZona4.Name = "lblHoraZona4";
+            lblHoraZona4.Size = new Size(229, 97);
+            lblHoraZona4.TabIndex = 1;
+            lblHoraZona4.Text = "13:00";
             // 
             // label21
             // 
@@ -355,6 +355,18 @@
             // timer1
             // 
             timer1.Tick += timer1_Tick;
+            // 
+            // timer2
+            // 
+            timer2.Tick += timer2_Tick;
+            // 
+            // timer3
+            // 
+            timer3.Tick += timer3_Tick;
+            // 
+            // timer4
+            // 
+            timer4.Tick += timer4_Tick;
             // 
             // Form1
             // 
@@ -404,7 +416,7 @@
         private Label lblDia4;
         private Label lblFecha4;
         private Label lblSegundos4;
-        private Label lblFechaZona4;
+        private Label lblHoraZona4;
         private Label label21;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;

@@ -1,0 +1,17 @@
+C:\Projects\QueHoraEsEn\QueHoraEsEn\bin\Debug\net8.0-windows\QueHoraEsEn.exe
+C:\Projects\QueHoraEsEn\QueHoraEsEn\bin\Debug\net8.0-windows\QueHoraEsEn.deps.json
+C:\Projects\QueHoraEsEn\QueHoraEsEn\bin\Debug\net8.0-windows\QueHoraEsEn.runtimeconfig.json
+C:\Projects\QueHoraEsEn\QueHoraEsEn\bin\Debug\net8.0-windows\QueHoraEsEn.dll
+C:\Projects\QueHoraEsEn\QueHoraEsEn\bin\Debug\net8.0-windows\QueHoraEsEn.pdb
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.Form1.resources
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.csproj.GenerateResource.cache
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.AssemblyInfoInputs.cache
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.AssemblyInfo.cs
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.csproj.CoreCompileInputs.cache
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.sourcelink.json
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.dll
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\refint\QueHoraEsEn.dll
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.pdb
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\QueHoraEsEn.genruntimeconfig.cache
+C:\Projects\QueHoraEsEn\QueHoraEsEn\obj\Debug\net8.0-windows\ref\QueHoraEsEn.dll
